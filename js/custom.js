@@ -48,3 +48,21 @@ $(function() {
     } );
     jQuery( '#jquery-ui-slider-value-volume' ) . val( jQuery( '#jquery-ui-slider-volume' ) . slider( 'value' ) );
 });
+
+$(function(){
+  $(".soundBtn").click(function(){
+	// $(this).toggleClass("hidden-lg");
+	// $('.stopBtn').toggleClass("visible-lg");
+    if($(this).hasClass("clicked")){
+      $(this).removeClass("clicked");
+
+      document.getElementById("overSound").currentTime = 0; //再生秒数を 0 にセット
+      document.getElementById("overSound").play();
+    }else{
+      $(this).addClass("clicked");
+
+      document.getElementById("overSound").pause();
+    }
+  });
+});
+
