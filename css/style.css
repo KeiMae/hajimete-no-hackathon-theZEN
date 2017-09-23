@@ -1,0 +1,80 @@
+/* line 9, ../scss/style.scss */
+.play-wrapper {
+  background-color: #171616;
+  min-height: 100vh;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 16, ../scss/style.scss */
+.play-control {
+  background-color: #282828;
+  color: #fff;
+  padding: 2vw 0;
+}
+/* line 20, ../scss/style.scss */
+.play-control .play-control-left {
+  display: inline-block;
+  width: 20vw;
+}
+/* line 24, ../scss/style.scss */
+.play-control .play-control-center {
+  display: inline-block;
+  vertical-align: middle;
+  width: 50vw;
+}
+/* line 31, ../scss/style.scss */
+.play-control .play-control-right {
+  width: 20vw;
+  display: inline-block;
+  margin-left: 6vw;
+}
+
+/* line 38, ../scss/style.scss */
+#jquery-ui-slider-value-1,
+#jquery-ui-slider-value-2,
+#jquery-ui-slider-value-3,
+#jquery-ui-slider-value-volume {
+  border: 0;
+  color: #fff !important;
+  font-weight: bold;
+  background-color: transparent;
+  margin: 5px;
+}
+
+/* line 49, ../scss/style.scss */
+.play-now {
+  color: #fff;
+  text-align: center;
+}
+/* line 52, ../scss/style.scss */
+.play-now h2 {
+  font-size: 4vw;
+  font-weight: bold;
+}
+/* line 56, ../scss/style.scss */
+.play-now img {
+  width: 20vw;
+}
+/* line 59, ../scss/style.scss */
+.play-now p {
+  margin-top: 1vw;
+  font-size: 2vw;
+}
+
+/* line 65, ../scss/style.scss */
+.play-list {
+  text-align: center;
+}
+/* line 67, ../scss/style.scss */
+.play-list li {
+  padding: 0 2vw;
+}
+/* line 70, ../scss/style.scss */
+.play-list li a img {
+  width: 15vw;
+}
+/* line 74, ../scss/style.scss */
+.play-list li p {
+  color: #fff;
+}
