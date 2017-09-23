@@ -11,12 +11,16 @@
 	min-height: 100vh;
 	padding-left: 0;
 	padding-right: 0;
+	padding-bottom: 190px;
 }
 
 .play-control{
 	background-color: #282828;
 	color: #fff;
 	padding: 2vw 0;
+	position: fixed;
+  bottom: 0;
+  width: 100vw;
 	.play-control-left{
 		display: inline-block;
 		width: 20vw;
@@ -63,6 +67,7 @@
 }
 
 .play-list{
+	margin-top: 2vw;
 	text-align: center;
 	li{
 		padding:0 2vw;
@@ -75,4 +80,9 @@
 			color: #fff;
 		}
 	}
+}
+
+// customize jquery ui
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default{
+	border-radius: 50px;
 }
